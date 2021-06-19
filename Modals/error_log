@@ -1,0 +1,340 @@
+[01-Mar-2020 21:48:10 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 21:48:12 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 21:51:43 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 21:56:38 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 21:56:41 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[01-Mar-2020 22:01:56 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 22:01:56 Asia/Manila] PHP Notice:  Undefined variable: lname_order_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 137
+[01-Mar-2020 22:02:53 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 22:02:57 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[01-Mar-2020 22:16:22 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[01-Mar-2020 22:16:24 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[04-Mar-2020 07:40:00 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 07:40:20 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[04-Mar-2020 07:40:20 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[04-Mar-2020 07:40:20 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 07:40:21 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: SerialNumber in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 5
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: Fname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 6
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: Lname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 7
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: email in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 8
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: contactNum in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 9
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Undefined index: address in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 10
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[04-Mar-2020 08:31:35 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[04-Mar-2020 08:35:49 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 08:35:53 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[04-Mar-2020 08:42:18 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[04-Mar-2020 08:42:23 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[06-Mar-2020 19:05:15 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: SerialNumber in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 5
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: Fname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 6
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: Lname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 7
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: email in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 8
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: contactNum in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 9
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Undefined index: address in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 10
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[06-Mar-2020 21:49:26 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[06-Mar-2020 22:20:18 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[06-Mar-2020 22:20:22 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: SerialNumber in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 5
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: Fname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 6
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: Lname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 7
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: email in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 8
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: contactNum in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 9
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Undefined index: address in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 10
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 00:27:07 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 01:25:00 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 01:25:08 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 01:25:09 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 01:48:41 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 01:48:46 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 02:01:30 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:16:41 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:16:44 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:16:45 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 02:16:45 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 88
+[07-Mar-2020 02:16:45 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 88
+[07-Mar-2020 02:17:47 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 88
+[07-Mar-2020 02:17:49 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 88
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 99
+[07-Mar-2020 02:17:51 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 99
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 99
+[07-Mar-2020 02:17:52 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 99
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: SerialNumber in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 5
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: Fname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 6
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: Lname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 7
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: email in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 8
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: contactNum in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 9
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Undefined index: address in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 10
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 02:26:54 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 02:29:06 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 02:29:08 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: SerialNumber in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 5
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: Fname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 6
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: Lname in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 7
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: email in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 8
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: contactNum in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 9
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Undefined index: address in /home/z16a9qj2ojlr/public_html/Modals/repairconfirmation.php on line 10
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 04:48:09 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_request.php on line 50
+[07-Mar-2020 15:29:24 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[07-Mar-2020 15:29:31 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[10-Mar-2020 04:54:33 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 04:54:35 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 04:54:36 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[10-Mar-2020 04:59:55 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 04:59:58 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:00:01 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:02:49 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:02:51 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:02:52 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[10-Mar-2020 05:09:01 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:09:03 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:09:04 Asia/Manila] PHP Notice:  Undefined variable: addres in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 80
+[10-Mar-2020 05:09:04 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:09:04 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:14:42 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:14:45 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:21:13 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:21:15 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:21:16 Asia/Manila] PHP Warning:  include(Modals/order_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:21:16 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/order_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:23:44 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Warning:  include(Modals/request_alert.php): failed to open stream: No such file or directory in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:23:46 Asia/Manila] PHP Warning:  include(): Failed opening 'Modals/request_alert.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 84
+[10-Mar-2020 05:26:48 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:26:50 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:30:31 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:30:34 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:33:51 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: fname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 6
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: lname_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 7
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: email_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 8
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: contact_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 9
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: address_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 10
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined index: message_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 11
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Undefined variable: orderNum_order in /home/z16a9qj2ojlr/public_html/Modals/orderconfirmation.php on line 135
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Notice:  Array to string conversion in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59
+[10-Mar-2020 05:33:53 Asia/Manila] PHP Warning:  implode(): Argument must be an array in /home/z16a9qj2ojlr/public_html/PagesFunction/query_orders.php on line 59

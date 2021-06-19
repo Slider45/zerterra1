@@ -1,0 +1,5 @@
+[12-Feb-2020 16:06:53 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/z16a9qj2ojlr/public_html/PHPEmailConfirmation/confirm.php on line 10
+[12-Feb-2020 16:06:53 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/z16a9qj2ojlr/public_html/PHPEmailConfirmation/confirm.php on line 12
+[12-Feb-2020 16:06:53 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/z16a9qj2ojlr/public_html/PHPEmailConfirmation/confirm.php on line 13
+[12-Feb-2020 16:06:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/z16a9qj2ojlr/public_html/PHPEmailConfirmation/confirm.php on line 15
+[12-Feb-2020 16:06:53 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/z16a9qj2ojlr/public_html/PHPEmailConfirmation/confirm.php on line 17
