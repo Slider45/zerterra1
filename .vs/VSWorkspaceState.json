@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\zerterra_cms",
+    "\\zerterra_cms\\Modals"
   ],
-  "SelectedNode": "\\index.php",
+  "SelectedNode": "\\zerterra_db.sql",
   "PreviewInSolutionExplorer": false
 }
