@@ -7,7 +7,7 @@ if(isset($_POST['confirm_deliver'])){
 
 
 
- $adminName=$_POST['adminName'];
+  $adminName=$_POST['adminName'];
   $password = $_POST['password'];
   $id= $_POST['id'];
   $dateNow = date('Y/m/d');
@@ -25,7 +25,8 @@ if(isset($_POST['confirm_deliver'])){
    $sql ="SELECT * FROM approved_order_list WHERE id ='$id'";
 
    $res_data = $con->query($sql);
-   while($row = mysqli_fetch_array($res_data)){
+   while($row = mysqli_fetch_array($res_data))
+   {
      $id = $row['id'];
      $serialNum1 = $row['SerialNumber'];
      $orderNum= $row['OrderNumber'];
@@ -69,15 +70,15 @@ if(isset($_POST['confirm_deliver'])){
 
 
               $msg="DELIVERY CONFIRMATION DONE";
-        // include 'decline_modal_alert.php';
+                // include 'decline_modal_alert.php';
 
             }else{
 
               $msg='<p style="color: red;" class="is-size-4">SOMETHING WENT WRONG,<br> PLEASE TRY AGAIN! action</p>';
-        // include 'decline_modal_alert.php';
+                // include 'decline_modal_alert.php';
             }
           }else{
-            $msg='<p style="color: red;" class="is-size-4">UNABLE TO UPDATE DATE,<br> PLEASE TRY AGAIN! action</p>';
+            $msg='<p style="color: red;" class="is-size-4">UNABLE TO UPDATE DATE,<br> PLEASE TRY AGAIN! Update approved order</p>';
           }
         }else{
 
@@ -86,7 +87,7 @@ if(isset($_POST['confirm_deliver'])){
         }
 
       }else{
-        $msg='<p style="color: red;" class="is-size-4">UNABLE TO SAVE TRANSACTION, <br>PLEASE TRY AGAIN! action</p>';
+        $msg='<p style="color: red;" class="is-size-4">UNABLE TO SAVE TRANSACTION, <br>PLEASE TRY AGAIN! action1</p>';
       }
 
     }else{

@@ -26,7 +26,7 @@ include '../PagesFunction/connection.php';
 
   <?php
   include 'Buttons/adminSearch.php';
-  // include 'Pages/indexViewPage.php';
+  include 'Pages/indexViewPage.php';
   include 'admin-header.php';
   
   ?>
@@ -77,19 +77,19 @@ include '../PagesFunction/connection.php';
   </div>
 
   <?php
-  $sql = "SELECT id FROM tblusers";
+  $sql = "SELECT id FROM tblusers WHERE is_active = '1' AND is_confirmed = '1'";
   $result=mysqli_query($con,$sql);
   $regUserCount=mysqli_num_rows($result);
 
-  $sql = "SELECT id FROM pending_order_list";
+  $sql = "SELECT id FROM pending_order_list WHERE is_approved = '0'";
   $result=mysqli_query($con,$sql);
   $penUserCount=mysqli_num_rows($result);
 
-  $sql = "SELECT id FROM admin_list";
+  $sql = "SELECT id FROM admin_list WHERE is_active = '1'";
   $result=mysqli_query($con,$sql);
   $adminUserCount=mysqli_num_rows($result);
 
-  $sql = "SELECT id FROM request_repair_list";
+  $sql = "SELECT id FROM request_repair_list WHERE is_approved = '0'";
   $result=mysqli_query($con,$sql);
   $requestCount=mysqli_num_rows($result);
 
@@ -192,7 +192,7 @@ include '../PagesFunction/connection.php';
 
            <?php 
 
-           $sql = "SELECT * FROM tblactionlog ORDER by id desc";
+           $sql = "SELECT * FROM tblactionlog ORDER BY id DESC LIMIT $offset, $no_of_records_per_page";
            $res_data = $con->query($sql);
            while($row = mysqli_fetch_array($res_data)){
             $id = $row['id'];
@@ -237,9 +237,8 @@ include '../PagesFunction/connection.php';
             </p>
           </header>
           <div class="columns">
-            <div class="column">
-              <p style="margin-left: 21px;
-              font-size: 21pt;">TOTAL COUNT:</p>
+            <div class="column is-size-3" style="text-align: center; margin-top: 25px;">
+              <p>TOTAL COUNT:</p>
             </div>
             <div class="column is-size-3" style="text-align: center; margin-top: 25px;">
               <span class="is-right"><?php echo $penUserCount;?></span>
