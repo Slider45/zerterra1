@@ -59,6 +59,7 @@ if(isset($_POST['btn_add_admin'])){
 
 
 if(isset($_POST['acnt_remove'])){
+  $nameAdmin = $_SESSION['admin'];
   $author = $_POST['adminEmail'];
   $adminName = $_POST['adminName'];
   $delete_id = $_POST['delete_id'];
@@ -85,7 +86,7 @@ if(isset($_POST['acnt_remove'])){
     $sql= "UPDATE admin_list SET is_active='0' WHERE id='$delete_id'"; 
     if($con->query($sql) === TRUE){
 
-      $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','DELETED ADMIN $adminName','$dateNow')";
+      $sqlactionlog = "INSERT INTO tblactionlog (Author, Action, DateAction) VALUES ('$nameAdmin','DELETED ADMIN $adminName','')";
       if($con->query($sqlactionlog)===TRUE){
 
         $msg='ADMIN <p style="color: red;" class="is-size-4">'. $adminName . '</p> HAS BEEN DELETED!';
