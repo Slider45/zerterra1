@@ -14,7 +14,7 @@
   .input{
     border:solid 1px;
     margin-bottom:5px;
-    color: #3333;
+    color: #333;
   }
 
 </style>
