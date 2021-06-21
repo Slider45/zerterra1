@@ -11,7 +11,7 @@ if(isset($_POST['btn-update'])){
           $sql ="INSERT INTO request_repair_list (FirstName,LastName,email,contact,address) VALUES ('$fname','$lname','$email','$address','$contact')";
           if($con->query($sql) === TRUE){
           
-          $sql = "INSERT INTO tblactionlog (Author,Action,DateAction) VALUES ('$author','Edit Request [ $id ]','$dateNow')";
+          $sql = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Edit Request [ $id ]')";
 
           if($con->query($sql) === TRUE){
             echo "<script>window.alert('RECORD IS UPDATED');</script>";
@@ -44,7 +44,7 @@ if(isset($_POST['btn-update'])){
           if($con->query($sql) === TRUE){
            
           
-          $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','DELETED REQUEST [$fname.'  '.$lname]','$dateNow')";
+          $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','DELETED REQUEST - [$fname.'  '.$lname]')";
           if($con->query($sqlactionlog)===TRUE){
             $msg='RECORD <p style="color: red;" class="is-size-4">'.  $fname.' '.$lname . '</p> HAS BEEN DELETED!';
             include 'Modals/request_alert.php';
@@ -86,7 +86,7 @@ if(isset($_POST['btn-update'])){
           $sql = "UPDATE request_repair_list SET Firstname='$fname',Lastname='$lname',Email='$Email',Address='$address', Contact='$contact' WHERE id='$id'";
           if($con->query($sql) === TRUE){
 
-            $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','REQUEST DETAILS UPDATED [$fname.'  '.$lname]','$dateNow')";
+            $sqlactionlog = "INSERT INTO tblactionlog (Author, Action) VALUES ('$author','REQUEST DETAILS UPDATED [$fname.'  '.$lname]')";
             if($con->query($sqlactionlog)===TRUE){
          
           

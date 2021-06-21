@@ -115,7 +115,7 @@ include '../PagesFunction/connection.php';
              include 'searchFunction/consoactionLogFunction.php';
            }
          }else{     
-                   $sql = "SELECT * FROM tbl_activity_log  ORDER BY id DESC LIMIT $offset, $no_of_records_per_page";
+                   $sql = "SELECT * FROM tblactionlog  ORDER BY id DESC LIMIT $offset, $no_of_records_per_page";
 
           $res_data = $con->query($sql);
           while($row = mysqli_fetch_array($res_data)){

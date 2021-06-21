@@ -19,7 +19,7 @@ if(isset($_POST['confirm_decline'])){
 		$sql= "DELETE FROM `pending_order_list` WHERE OrderNumber = '$orderNum'";
 		if($con->query($sql) === TRUE){
 
-			$sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$adminName','DELETED Order [$orderNum]','$dateNow')";
+			$sqlactionlog = "INSERT INTO tblactionlog (Author, Action) VALUES ('$adminName','DELETED ORDER -  [$orderNum]')";
 			if($con->query($sqlactionlog)===TRUE){
 
 				$msg="THIS RECORD CANNOT BE DELETE!";

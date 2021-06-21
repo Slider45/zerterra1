@@ -26,7 +26,7 @@ if(isset($_POST['saveApprove'])){
       $sqlupdate = "UPDATE pending_order_list SET is_approved='1' WHERE id='$id'";
       if($con->query($sqlupdate) === TRUE){
 
-        $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','Approve Order [$orderNum] ','$dateNow')";
+        $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Approve Order - [$orderNum]')";
         if($con->query($sqlactionlog)===TRUE){
 
 

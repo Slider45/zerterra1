@@ -1,7 +1,7 @@
 <?php
 
 
-$sql= "SELECT * FROM tbl_activity_log WHERE CONCAT(`id`,`AdminName`, `Description`, `DateAction`) LIKE '%".$searchValue."%'";
+$sql= "SELECT * FROM tblactionlog WHERE CONCAT(`id`,`AdminName`, `Description`, `DateAction`) LIKE '%".$searchValue."%'";
 $result = $con->query($sql);
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) 

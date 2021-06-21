@@ -23,7 +23,7 @@ if(isset($_POST['updated_id'])){
   if($con->query($sql) === TRUE){
 
 
-   $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','Pending Edit [$orderNum]','$dateNow')";
+   $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Pending Edit- [$orderNum]')";
    if($con->query($sqlactionlog)===TRUE){
 
     $msg='<p class="is-size-4">RECORD IS UPDATED!</p>';

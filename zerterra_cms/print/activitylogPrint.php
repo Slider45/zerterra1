@@ -50,7 +50,7 @@ $dateTo = $_GET['to_date'];
     </thead>
   
   <?php
-  $sql = "SELECT * FROM tbl_activity_log ";
+  $sql = "SELECT * FROM tblactionlog ";
   $res_data = $con->query($sql);
   while($row = mysqli_fetch_array($res_data)){
     $id = $row['id'];
