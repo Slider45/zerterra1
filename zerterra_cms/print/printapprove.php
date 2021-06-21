@@ -223,7 +223,7 @@ $serialNum =$_SESSION['serialNum'];
 
           if($con->query($sqlupdate) === TRUE){
 
-            $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','Approve Order [$orderNum] ','$dateNow')";
+            $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Approve Order - [$orderNum] ')";
             if($con->query($sqlactionlog)===TRUE){
 
               echo"<script>window.print();</script>";

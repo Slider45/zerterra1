@@ -21,7 +21,7 @@ if(isset($_POST['acnt_remove'])){
     $sql= "UPDATE tblusers SET is_active='0' WHERE id='$delete_id'";
     if($con->query($sql) === TRUE){
 
-     $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','User [$username] is deleted ','$dateNow')";
+     $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','User [$username] is deleted ')";
      if($con->query($sqlactionlog)===TRUE){
 
       $msg='<p class="is-size-3">RECORD IS DELETED!</p>';
@@ -60,7 +60,7 @@ if(isset($_POST['updated_user'])){
   $sql = "UPDATE tblusers SET Firstname='$fname',Lastname='$lname',Email='$Email', Contact='$contact' WHERE id='$id'";
   if($con->query($sql) === TRUE){
 
-    $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author','Update [$username]','$dateNow')";
+    $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Update [$username]')";
     if($con->query($sqlactionlog)===TRUE){
 
      $msg='<p class="is-size-3">RECORD IS UPDATED!</p>';

@@ -56,7 +56,7 @@
           $sqlupdate ="UPDATE approved_order_list SET is_delivered = '1' WHERE id = '$id'";
           if($con->query($sqlupdate) === TRUE){
 
-            $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$adminName','Delivered Order to [$orderNum]','$dateNow')";
+            $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$adminName','Delivered Order to [$orderNum]')";
             if($con->query($sqlactionlog)===TRUE){
 
 

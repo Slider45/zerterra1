@@ -29,7 +29,7 @@ if(isset($_POST['btn_add_admin'])){
     $sql ="INSERT INTO admin_list(Fullname,Password,Contact,Email,Position,is_active) VALUES ('$name','$password','$contact','$Email','$role','1')";
     if($con->query($sql) === TRUE){
 
-  $sqlactionlog = "INSERT INTO tblactionlog (Author ,Action , DateAction) VALUES ('$author','Add New Admin ','')";
+  $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author','Add New Admin ')";
       if($con->query($sqlactionlog)===TRUE){
 
       
@@ -86,7 +86,7 @@ if(isset($_POST['acnt_remove'])){
     $sql= "UPDATE admin_list SET is_active='0' WHERE id='$delete_id'"; 
     if($con->query($sql) === TRUE){
 
-      $sqlactionlog = "INSERT INTO tblactionlog (Author, Action, DateAction) VALUES ('$nameAdmin','DELETED ADMIN $adminName','')";
+      $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$nameAdmin','DELETED ADMIN $adminName')";
       if($con->query($sqlactionlog)===TRUE){
 
         $msg='ADMIN <p style="color: red;" class="is-size-4">'. $adminName . '</p> HAS BEEN DELETED!';
@@ -123,7 +123,7 @@ if(isset($_POST['updated_id'])){
   $sql = "UPDATE admin_list SET Fullname='$name',Contact='$contact',Email='$email' WHERE id='$id'";
   if($con->query($sql) === TRUE){
 
-   $sqlactionlog = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$author',' Edit Admin $name','$dateNow')";
+   $sqlactionlog = "INSERT INTO tblactionlog (Author,Action) VALUES ('$author',' Edit Admin $name')";
    if($con->query($sqlactionlog)===TRUE){
 
      $msg='ADMIN <p style="color: red;" class="is-size-4">'. $name . '</p> HAS BEEN EDIT!';

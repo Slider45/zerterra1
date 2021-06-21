@@ -15,7 +15,7 @@ if(isset($_POST['inserttoactionlog'])){
     $dateNow = date("d/m/Y");
     $adminname=$_POST['adminName'];
     
-    $sql = "INSERT INTO tbl_activity_log (AdminName, Description, DateAction) VALUES ('$adminname','deleting','$dateNow')";
+    $sql = "INSERT INTO tblactionlog (Author,Action) VALUES ('$adminname','deleting')";
     if($con->query($sql)===TRUE){
         
         $msg="INSERT DONE";
