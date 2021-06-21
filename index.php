@@ -38,7 +38,7 @@ include 'PagesFunction/connection.php';
     background: url(images/Banner1.jpg);
     /* Set a specific height */
     height: 100%;
-    /* Create the parallax scrolling effect */
+    /* Create the parallax scrolling effect 123*/
     position: relative;
     background-position: center;
     background-size: cover;
