@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\zerterra_cms",
+    "\\content",
+    "\\Modals",
+    "\\PagesFunction",
     "\\zerterra_cms\\Modals"
   ],
-  "SelectedNode": "\\zerterra_db.sql",
+  "SelectedNode": "\\PagesFunction\\MailingFunction.php",
   "PreviewInSolutionExplorer": false
 }

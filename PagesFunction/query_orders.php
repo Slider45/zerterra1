@@ -24,7 +24,7 @@ if (isset($_POST['sendOrder'])) {
     $email_from = $_POST['email_order']; // required
     $contact = $_POST['contact_order']; // not required
     $address = $_POST['address_order']; // required
-    $message = $_POST['message_order']; // required
+    $msg = $_POST['message_order']; // required
     
 
 
@@ -49,18 +49,18 @@ if (isset($_POST['sendOrder'])) {
     $mail->Subject = $email_subject;
     $mail->isHTML(true);
     $mail->Body ="PRE-ORDER EMAIL FROM <br>
-    ORDER NUMBER: $orderNum <br> 
+    ORDER NUMBER: $orderNum_order <br> 
     EMAIL: $email_from <br> 
     FIRSTNAME:  $fname <br> 
     LASTNAME:  $lname <br> 
     CONTACT:  $contact <br> 
     ADDRESS:  $address <br> 
-    MESSAGE: $message";
+    MESSAGE: $msg";
     $mail->Header = implode("\r\n". $headers);
 
     if ($mail->send()){
 
-      $subject_from_support = "Pre-Order\t[" . $orderNum . "]";
+      $subject_from_support = "Pre-Order\t[" . $orderNum_order . "]";
       $mailfromadmin = new PHPMailer();
       $mailfromadmin->setFrom("no-reply@zerterra.com");
       $mailfromadmin->addAddress($email_from);

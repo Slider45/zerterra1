@@ -108,8 +108,9 @@ $orderNum=date("Ymd-His-") . 0 .$pendingCount;
  ?>
 
 
-
- <form action="orderconfirmation.php" method="POST" accept-charset="utf-8">
+ 
+ <!--<form action="orderconfirmation.php" method="POST" accept-charset="utf-8"> -->
+ <form action="../PagesFunction/query_orders.php" method="POST" accept-charset="utf-8">
   <center>
 
 

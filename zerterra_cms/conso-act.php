@@ -120,8 +120,8 @@ include '../PagesFunction/connection.php';
           $res_data = $con->query($sql);
           while($row = mysqli_fetch_array($res_data)){
              $id = $row['id'];
-    $author = $row['AdminName'];
-    $action = $row['Description'];
+    $author = $row['Author'];
+    $action = $row['Action'];
     $dateAction = $row['DateAction'];
             
             ?>
