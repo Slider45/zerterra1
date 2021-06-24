@@ -53,7 +53,7 @@ include 'PagesFunction/connection.php';
     <div class="hero-text" id="hero-text">
       <p class="first">TAKE CARE OF NATURE</p>
       <p class="second">recycle your food scraps and help us protect our environment</p>
-      <a href="Log-in.php"><button class="parallax-btn">LOG</button></a>
+      <a href="Log-in.php"><button class="parallax-btn">LOGIN</button></a>
     </div>
     <nav>
       <div class="menu-icon">
