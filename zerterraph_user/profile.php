@@ -99,6 +99,10 @@ include 'user-header.php';
         <i class="fas fa-envelope-open-text"></i>
         <span>Contact Us</span>
       </a>
+      <a href="logout.php">
+        <i class="fas fa-sign-out-alt"></i>
+        <span>Logout</span>
+      </a>
       <!-- <a href="#">
         <i class="far fa-envelope"></i>
         <span>Contact</span>
@@ -241,7 +245,7 @@ while($row = mysqli_fetch_array($res_data)){
                    
                   <!--  <button type="submit" name="updated_user" class="button is-success">Save</button> -->
                  
-<button class="button" id="home" type="submit"><i class="fas fa-print"></i> </button>
+<!-- <button class="button" id="home" type="submit"><i class="fas fa-print"></i> </button> -->
                  </form>
              </div>
 </section>
