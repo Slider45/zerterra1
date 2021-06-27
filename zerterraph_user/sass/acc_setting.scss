@@ -117,15 +117,21 @@ body {
         .section {
             padding-top: 0px;
             padding-bottom: 0;
-            margin-top: 10;
+            margin-top: 0;
         }
-        .header {
-            margin-bottom: 55px;
-            margin-top: -5px;
-            padding: 10px;
-            border-radius: 6px;
+
+        .container {
+            border-radius: 5px;
+            padding: 50px;
+            margin-left: 250px;
+            margin-right: 80px;
         }
-  
+
+        .form-edit {
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+
         .title {
             color: #1faa74;
             text-align: left;
@@ -133,6 +139,7 @@ body {
             font-family: 'Montserrat', sans-serif;
             font-weight: bolder;
         }
+
           .input {
             width: 100%;
             resize: vertical;
@@ -155,16 +162,7 @@ body {
             font-weight: bolder;
             font-size: 18px;
             display: inline-block;
-          }
-
-          .container {
-            border-radius: 5px;
-            padding: 50px;
-            margin-left: 250px;
-            margin-right: 80px;
-          }
-          .form-edit {
-              margin-left: 70px;
+            margin-top: 5px;
           }
 
           /* Clear floats after the columns */
@@ -203,14 +201,14 @@ body {
 
         // footer
         .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          padding-bottom: 0;
-          width: 100%;
-          background-color: transparent;
-          color: black;
-          text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding-bottom: 0;
+            width: 100%;
+            background-color: transparent;
+            color: black;
+            text-align: center;
         }
 
         //query

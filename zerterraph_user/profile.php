@@ -24,7 +24,7 @@ include '../PagesFunction/connection.php';
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <script src="js/homeJS.js"></script>
-    <link rel="stylesheet" type="text/css" href="sass/profile.css">
+    <link rel="stylesheet" type="text/css" href="sass/profile.scss">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
@@ -72,41 +72,39 @@ include 'user-header.php';
 
     <!-- SIDE BAR -->
     <div class="sidebar">
-    <header><span><figure class="image is-128x128" style="margin-top: 70px;">
-  <img class="is-rounded" src="images\avatar.png">
-</figure></header>
-      <a href="index.php" id="item">
-        <i class="fas fa-qrcode"></i>
-        <span>Dashboard</span>
-      </a>
-      <a href="profile.php" class="active" id="item">
-        <i class="fas fa-user"></i>
-        <span>Profile</span>
-      </a>
-      <a href="acc_setting.php" id="item">
-        <i class="fas fa-pen-nib"></i>
-        <span>Edit Profile</span>
-      </a>
-      <a href="login-setting.php" id="item">
-        <i class="fas fa-cog"></i>
-        <span>Login Setting</span>
-      </a>
-      <a href="request-repair.php" id="item">
-        <i class="fas fa-inbox"></i>
-        <span>Request Repair</span>
-      </a>
-      <a href="contact-us.php" id="item">
-        <i class="fas fa-envelope-open-text"></i>
-        <span>Contact Us</span>
-      </a>
-      <a href="logout.php">
-        <i class="fas fa-sign-out-alt"></i>
-        <span>Logout</span>
-      </a>
-      <!-- <a href="#">
-        <i class="far fa-envelope"></i>
-        <span>Contact</span>
-      </a> -->
+            <header>
+               <figure class="image is-128x128" style="margin-top: 70px;">
+                    <img class="is-rounded" src="images\avatar.png">
+               </figure>
+            </header>
+                  <a href="index.php" id="item">
+                    <i class="fas fa-qrcode"></i>
+                    <span>Dashboard</span>
+                  </a>
+                  <a href="profile.php" class="active" id="item">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                  </a>
+                  <a href="acc_setting.php" id="item">
+                    <i class="fas fa-pen-nib"></i>
+                    <span>Edit Profile</span>
+                  </a>
+                  <a href="login-setting.php" id="item">
+                    <i class="fas fa-cog"></i>
+                    <span>Login Setting</span>
+                  </a>
+                  <a href="request-repair.php" id="item">
+                    <i class="fas fa-inbox"></i>
+                    <span>Request Repair</span>
+                  </a>
+                  <a href="contact-us.php" id="item">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>Contact Us</span>
+                  </a>
+                  <a href="logout.php">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                  </a>
     </div>
 
     <script>
@@ -136,119 +134,91 @@ include 'user-header.php';
     </script>
     
             <?php
-        $userID =  $_SESSION['userID'];
-$sql = "SELECT * FROM tblusers WHERE id='$userID' AND is_active='1'";
-$res_data = $con->query($sql);
-while($row = mysqli_fetch_array($res_data)){
-  $id = $row['id'];
-  $serialNum = $row['SerialNumber'];
-  $fname = $row['Firstname'];
-  $lname = $row['Lastname'];
-  $contact = $row['Contact'];
-  $address = $row['Address']; 
-  $email = $row['Email'];
-  $rdays = $row['RemainingDays'];
-  $dateReg = $row['DateRegistered'];
-  $dateEnd= $row['DateExpired'];
+                $userID =  $_SESSION['userID'];
+                $sql = "SELECT * FROM tblusers WHERE id='$userID' AND is_active='1'";
+                $res_data = $con->query($sql);
+                while($row = mysqli_fetch_array($res_data)){
+                  $id = $row['id'];
+                  $serialNum = $row['SerialNumber'];
+                  $fname = $row['Firstname'];
+                  $lname = $row['Lastname'];
+                  $contact = $row['Contact'];
+                  $address = $row['Address']; 
+                  $email = $row['Email'];
+                  $rdays = $row['RemainingDays'];
+                  $dateReg = $row['DateRegistered'];
+                  $dateEnd= $row['DateExpired'];
   
-  ?>
+            ?>
 
     <!-- END OF SIDE BAR -->
+
+    <!-- START OF CONTENT -->
+
     <section class="section">
-    <div class="container">
-        <div class="media">
-            <div class="media-left" id="header">
-                <h1 class="title">
-                PROFILE
-                </h1>
+        <div class="container">
+            <div class="media">
+              <div class="media-left" id="header">
+                 <h1 class="title">
+                    PROFILE
+                 </h1>
+              </div>
+              <div class="media-content" style-"width:500px;>
+                 <figure class="image is-240x240" style="width:200px;border: solid;">
+                    <img src="qrGenerator/generate.php?text=<?php echo $serialNum; ?>" >
+                 </figure>
+                    <p class="is-size-5" style="margin-left:90px;">QR CODE</p>
+              </div>  
             </div>
-            <div class="media-content" style-"width:500px;>
-                <figure class="image is-240x240" style="width:200px;border: solid;">
-                <img src="qrGenerator/generate.php?text=<?php echo $serialNum?>">
-                </figure>
-                <p class="is-size-5" style="margin-left:90px;">QR CODE</p>
+            <div id="view<?php echo $id; ?>" role="dialog">
+                <form method="GET" action="print/print_user.php" style="width: 1200px;">
+                    <div class="field">
+                          <div class="control">
+                            <div class="field">
+                              <input type="hidden"  value="<?php echo $id; ?>">
+                            </div>
+                          </div>
+                          <div class="control">
+                             <div class="columns">
+                                  <div class="column is-3" id="label">Serial Number:</div>
+                                  <div class="column" id="txtbox"><input class="input"  name="serialNum" value="<?php echo $serialNum; ?>" readonly></div>
+                             </div>
+                          </div>
+                          <div class="control" >
+                             <div class="columns">
+                                  <div class="column is-3" id="label">Firstname</div>
+                                  <div class="column" id="txtbox"><input class="input" name="fname"  value="<?php echo $fname; ?>"  readonly></div>
+                             </div>
+                          </div>
+                          <div class="control" >
+                             <div class="columns">
+                                  <div class="column is-3" id="label">Lastname</div>
+                                  <div class="column" id="txtbox"><input class="input" name="lname"  value="<?php echo $lname; ?>"  readonly></div>
+                             </div>
+                          </div>
+                          <div class="control">
+                            <div class="columns">
+                                  <div class="column is-3" id="label">E-mail</div>
+                                  <div class="column" id="txtbox"><input class="input" name="email"  value="<?php echo $email; ?>"  readonly></div>
+                             </div>
+                          </div>
+                          <div class="control">
+                            <div class="columns">
+                                  <div class="column is-3" id="label">Contact number</div>
+                                  <div class="column" id="txtbox"><input class="input" name="contact"  value="<?php echo $contact; ?>" readonly></div>
+                             </div>
+                          </div>
+                          <div class="control">
+                            <div class="columns">
+                                  <div class="column is-3" id="label">Address </div>
+                                  <div class="column" id="txtbox"><input class="input" name="address" value="<?php echo $address; ?>" readonly></div>
+                             </div>
+                          </div>
+                    </div>
+                </form>
             </div>
         </div>
-
-        <!-- <div class="content">
-            <p class="content-item">Serial Number: </p>
-            <hr class="underline"><p></p></hr>
-            <p class="content-item">Username </p>
-            <hr class="underline"></hr>
-            <p class="content-item">E-mail Address </p>
-            <hr class="underline"></hr>
-            <p class="content-item">Contact number </p>
-            <hr class="underline"></hr>
-            <p class="content-item">Address </p>
-            <hr class="underline"></hr>
-        </div> -->
-
-
-
-  <div id="view<?php echo $id; ?>" role="dialog">
-      
-  <form method="GET" action="print/print_user.php" style="width: 1200px;">
-    
-    <div class="field">
-      <div class="control">
-        <div class="field">
-          <input type="hidden"  value="<?php echo $id; ?>">
-        </div>
-      </div>
-      <div class="control">
-         <div class="columns">
-              <div class="column is-3" id="label">Serial Number:</div>
-              <div class="column" id="txtbox"><input class="input"  name="serialNum" value="<?php echo $serialNum; ?>" readonly></div>
-         </div>
-      </div>
-      <div class="control" >
-         <div class="columns">
-              <div class="column is-3" id="label">Firstname</div>
-              <div class="column" id="txtbox"><input class="input" name="fname"  value="<?php echo $fname; ?>"  readonly></div>
-         </div>
-      </div>
-      <div class="control" >
-         <div class="columns">
-              <div class="column is-3" id="label">Lastname</div>
-              <div class="column" id="txtbox"><input class="input" name="lname"  value="<?php echo $lname; ?>"  readonly></div>
-         </div>
-      </div>
-      <div class="control">
-        <div class="columns">
-              <div class="column is-3" id="label">E-mail</div>
-              <div class="column" id="txtbox"><input class="input" name="email"  value="<?php echo $email; ?>"  readonly></div>
-         </div>
-      </div>
-      <div class="control">
-        <div class="columns">
-              <div class="column is-3" id="label">Contact number</div>
-              <div class="column" id="txtbox"><input class="input" name="contact"  value="<?php echo $contact; ?>" readonly></div>
-         </div>
-      </div>
-      <div class="control">
-        <div class="columns">
-              <div class="column is-3" id="label">Address </div>
-              <div class="column" id="txtbox"><input class="input" name="address" value="<?php echo $address; ?>" readonly></div>
-         </div>
-      </div>
-      
-      <div class="control" style="margin-top: 10px;">
-        
-                       <!-- <div class="select">
-                         <select style="width: 1000px; padding-top:5px; border:solid 1px;" name="role"required="">
-                          <option >Super Admin</option>
-                          <option>Admin</option>
-                         </select>
-                       </div> -->
-                     </div>
-                   </div>
-                   
-                  <!--  <button type="submit" name="updated_user" class="button is-success">Save</button> -->
-                 
-<!-- <button class="button" id="home" type="submit"><i class="fas fa-print"></i> </button> -->
-                 </form>
-             </div>
-</section>
+    </section>
 
              <?php
 }
@@ -260,6 +230,6 @@ while($row = mysqli_fetch_array($res_data)){
         <p>@2019 ZerterraPh</p>
     </div>
 
-</body>
 
+</body>
 </html>

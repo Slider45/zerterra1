@@ -8,7 +8,7 @@ body {
 
 /* navbar */
 .navbar {
-  width: -webkit-fill-available;
+  width: 100%;
   position: fixed;
 }
 
@@ -621,7 +621,7 @@ a.active, a:hover {
 @media (min-width: 701px) and (max-width: 768px) {
   .sidebar {
     position: fixed;
-    width: 18al0px;
+    width: 180px;
     height: 100%;
   }
   .sidebar header {

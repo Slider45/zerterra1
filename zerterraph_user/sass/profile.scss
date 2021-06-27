@@ -97,12 +97,11 @@ a.active, #item:hover {
   font-family: 'Montserrat';
 }
 
-#header {
-  margin-top: 25px;
+.media-left, #header {
+  margin-top: 35px;
   padding: 10px;
   padding-left: 30px;
-  margin-left: 230px;
-  border-radius: 6px;
+  margin-left: 250px;
 }
 
 .media-content {
@@ -123,7 +122,7 @@ a.active, #item:hover {
   padding: 10px;
   padding-left: 30px;
   margin-left: 290px;
-  margin-top: 60px;
+ /* margin-top: 60px;*/
   border-radius: 6px;
   position: relative;
 }
